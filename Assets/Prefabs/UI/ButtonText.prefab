@@ -98,10 +98,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0.20784315, b: 0.1764706, a: 1}
-    m_HighlightedColor: {r: 0.6981132, g: 0.035794474, b: 0.009564032, a: 1}
-    m_PressedColor: {r: 0.69803923, g: 0.03529412, b: 0.007843138, a: 1}
-    m_SelectedColor: {r: 1, g: 0.20784315, b: 0.1764706, a: 1}
+    m_NormalColor: {r: 0, g: 0.7843138, b: 0.91372555, a: 0.68235296}
+    m_HighlightedColor: {r: 0, g: 0.47777137, b: 0.5566038, a: 0.68235296}
+    m_PressedColor: {r: 0, g: 0.4784314, b: 0.5568628, a: 0.68235296}
+    m_SelectedColor: {r: 0, g: 0.7843138, b: 0.91372555, a: 0.68235296}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -199,7 +199,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: d313d63c169b0c1499d3a732bebadf98, type: 3}
+    m_Font: {fileID: 12800000, guid: aca75c122aa049e40ac7a01ffe5f4e36, type: 3}
     m_FontSize: 65
     m_FontStyle: 0
     m_BestFit: 0

@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class GameRule : MonoBehaviour
 {
-    [SerializeField] private Cube enemy;
     [SerializeField] private Cube hero;
     [SerializeField] private Cube game;
 
@@ -15,12 +14,9 @@ public class GameRule : MonoBehaviour
 
     public void checkResult()
     {
-        if (Mathf.Abs((int)game.CurrentEdge.GetComponent<Edge>().EdgeNum - (int)enemy.CurrentEdge.GetComponent<Edge>().EdgeNum) >
-            Mathf.Abs((int)game.CurrentEdge.GetComponent<Edge>().EdgeNum - (int)hero.CurrentEdge.GetComponent<Edge>().EdgeNum))
+    
+        if (game.CurrentEdge.GetComponent<Edge>().EdgeNum == hero.CurrentEdge.GetComponent<Edge>().EdgeNum)
             heroWinEvent?.Invoke();
-        else if (Mathf.Abs((int)game.CurrentEdge.GetComponent<Edge>().EdgeNum - (int)enemy.CurrentEdge.GetComponent<Edge>().EdgeNum) ==
-            Mathf.Abs((int)game.CurrentEdge.GetComponent<Edge>().EdgeNum - (int)hero.CurrentEdge.GetComponent<Edge>().EdgeNum))
-            drawEvent?.Invoke();
         else enemyWinEvent?.Invoke();
     }
 

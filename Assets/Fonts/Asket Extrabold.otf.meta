@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d313d63c169b0c1499d3a732bebadf98
+guid: aca75c122aa049e40ac7a01ffe5f4e36
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Banana Brick
+  - Asket
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
